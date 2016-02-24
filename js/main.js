@@ -18,6 +18,15 @@ jQuery(function($) {
             });
             return false;
         });
+        $('.panel-heading a').click(function() {
+    $('.panel-heading').removeClass('active');
+    $(this).parents('.panel-heading').addClass('active');
+    
+    $('.panel-title').removeClass('active'); //just to make a visual sense
+    $(this).parent().addClass('active'); //just to make a visual sense
+    
+    
+ });
     });
     $(function() {
         
