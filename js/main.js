@@ -28,8 +28,7 @@ jQuery(function($) {
     
  });
     });
-    $(function() {
-        
+    $(function() {        
 var li = $('.portfolio-filter >li');
 var liSelected;
 $(window).keydown(function(e){
@@ -59,7 +58,14 @@ $(window).keydown(function(e){
     }
     liSelected.find('a').click();
 });
+        $('.quality-description').textillate({
+            loop:true,
+            outEffects:['fadeOut'],
+            in:{effect:'flipInX', delayScale: 1.0,delay: 30},
+            out:{effect:'fadeOut', delayScale: 1.0,delay: 30},
+        });
     });
-   
+
+  
    
 });
