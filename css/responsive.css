@@ -115,4 +115,7 @@
     #recent-works .col-xs-12.col-sm-4.col-md-3 {
         padding: 0 15px;
     }
+    #feature .quality-description{
+        line-height: 30px !important;
+    }
 }

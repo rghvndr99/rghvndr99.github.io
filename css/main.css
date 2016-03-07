@@ -117,7 +117,7 @@ section{
 }
 #listOfNavigation ul li{
     margin-left:85px;
-    padding-bottom: 28px;
+    padding-bottom: 10px;
     margin-top: 10px;
 }
 #listOfNavigation ul li a{
@@ -127,14 +127,14 @@ section{
 }
 #listOfNavigation ul li.active a{
     color: #fff;
-    background: #c52d2f;
+    background-color: rgba(169, 68, 66, 0.86);
     border-radius: 5px;
 }
 #listOfNavigation ul li.active a:hover,
 #listOfNavigation ul li a:hover,
 #listOfNavigation ul li a:focus{
     color: #fff;
-    background: #c52d2f;
+    background-color: rgba(169, 68, 66, 0.86);
     border-radius: 5px;
     transition: all 1000ms;
 }
@@ -196,7 +196,7 @@ section{
 
 #footer{
     background: #2e2e2e;
-    padding:30px 0;
+    padding:20px 0;
     color:#fff;
 }
 #footer  a{
@@ -543,12 +543,13 @@ a.accordian-toggle:hover,a.accordian-toggle:focus,a.accordian-toggle:active{
     color:#000;
 }
 #feature .quality-description{
-    font-size: 40px;
-    font-weight: 400;
-}
-#feature  h3{
+    font-size: 20px;
+    font-weight: 300;
     color:cadetblue;
+    line-height:50px;
+    font-family: sans-serif;
 }
+
 #feature .center h2{
     font-size: 35px;
 }
