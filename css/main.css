@@ -111,6 +111,7 @@ section{
 .navbar-customise{
     background: black;
     margin-bottom: 0px;
+    border-bottom: 3px solid #ABC5B2
 }
 .navbar-padding{
     padding: 8px 0 25px 0;
