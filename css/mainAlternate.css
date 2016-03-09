@@ -90,24 +90,7 @@ section{
     padding-top: 10px;
     border-bottom:3px solid #272527;
 }
-.search-form{
-    background:transparent;
-    border-radius: 5px;
-    color:#fff;
-    width: 60px;
-    border: none;
-    transition: all 400ms;
-}
-.search-form:hover{
-    width: 180px;
-    color:#fff;
-}
-.search-form::-webkit-input-placeholder{
-    color:transparent;
-}
-.search-form:hover::-webkit-input-placeholder{
-    color:#fff;
-}
+
 .navbar-customise{
     background: black;
     margin-bottom: 0px;
