@@ -587,6 +587,7 @@ box-shadow:inset 0 0 0 5px #c52d2f;
 }
 .recent-work-wrap img {
     width: 100%;
+    height:200px;
 }
 .recent-work-wrap .recent-work-inner {
     top: 0;
